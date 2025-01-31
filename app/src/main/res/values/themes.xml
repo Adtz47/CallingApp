@@ -1,0 +1,11 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <style name="Base.Theme.CallingApp" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="android:statusBarColor">@color/transparent_background</item>
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="colorPrimary">@color/app_primary</item>
+        <item name="android:windowBackground">@drawable/mainbackground</item>
+    </style>
+
+    <style name="Theme.CallingApp" parent="Base.Theme.CallingApp" />
+</resources>
